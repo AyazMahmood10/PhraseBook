@@ -85,8 +85,8 @@ function App() {
     <div
       className="App"
       style={{ height: "100vh", 
-               backgroundColor: lightMode ? "#fff" : "#181e2b", 
-               color: lightMode? "black" : "white",
+               backgroundColor: lightMode ? "#181e2b":"#fff", 
+               color: lightMode? "white" : "black",
                transition: "all 0.5s linear" }}
     >
       <Container 

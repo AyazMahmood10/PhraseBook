@@ -10,9 +10,9 @@ const Header = ({ category, setCategory, word, setWord, lightMode, setMeanings})
     const darkTheme = createTheme({
         palette: {
             primary: {
-                main: lightMode ? "#000" : "#fff"
+                main: lightMode ?  "#fff" : "#000" ,
             },
-            type: lightMode ? "light" : "dark",
+            type: lightMode ? "dark" : "light",
         },
     });
 
@@ -29,7 +29,7 @@ const Header = ({ category, setCategory, word, setWord, lightMode, setMeanings})
     
     return (
         <div className="header">
-            <span className="title">{ word ? word: "Word book" }</span>
+            <span className="title">{ word ? word: "Phrase book" }</span>
             <div className="inputs">
                 <MuiThemeProvider theme={darkTheme}>
                     <TextField 

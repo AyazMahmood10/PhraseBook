@@ -14,15 +14,15 @@ const Definitions = ({ meanings, word, lightMode }) => {
                           <div
                             className="singleMean"
                             style={{
-                              backgroundColor: lightMode ? "#3b5360" : "white",
-                              color: lightMode ? "white" : "black",
+                              backgroundColor: lightMode ? "white" : "#3b5360" ,
+                              color: lightMode ? "black" : "white",
                             }}
                           >
                             <b>{def.definition}</b>
                             <hr style={{ backgroundColor: "black", width: "100%" }} />
                             {def.example && (
                               <span>
-                                <b>Example :</b> {def.example}
+                                <strong>Example :</strong> {def.example}
                               </span>
                             )}
                             {def.synonyms && (
