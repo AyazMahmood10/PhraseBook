@@ -22,7 +22,7 @@ const Definitions = ({ meanings, word, lightMode }) => {
                             <hr style={{ backgroundColor: "black", width: "100%" }} />
                             {def.example && (
                               <span>
-                                <strong>Example :</strong> {def.example}
+                                <b>Example :</b> {def.example}
                               </span>
                             )}
                             {def.synonyms && (
